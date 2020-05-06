@@ -28,6 +28,9 @@ else if (cart.length === 2) {
 }
 else if (cart.length >=3) {
   var words2 = ''
+  for (var i = 0; i < cart.length-1; i++) {
+    words2 += `${getCart()[i].itemName} at $${getCart()[i].itemPrice},`
+  }
 }
 
 }
