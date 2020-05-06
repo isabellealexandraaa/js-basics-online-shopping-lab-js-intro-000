@@ -31,6 +31,8 @@ else if (cart.length >=3) {
   for (var i = 0; i < cart.length-1; i++) {
     words2 += `${getCart()[i].itemName} at $${getCart()[i].itemPrice},`
   }
+  var words3 =`and ${getCart()[getCart().length-1].itemName} at $${getCart()[getCart().length-1].itemPrice}`
+  return `${words1} ${words2}${words3}.`
 }
 
 }
