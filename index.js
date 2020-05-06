@@ -32,7 +32,7 @@ else if (cart.length >= 3) {
     words2 += `${getCart()[i].itemName} at $${getCart()[i].itemPrice},`
   }
   var words3 =`and ${getCart()[getCart().length-1].itemName} at $${getCart()[getCart().length-1].itemPrice}`
-  return `${words1} ${words2} ${words3}.`
+  return `${words1}  ${words2} ${words3}.`
 }
 
 }
