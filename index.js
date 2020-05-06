@@ -26,7 +26,9 @@ else if (cart.length === 1) {
 else if (cart.length === 2) {
   return `${words1} ${getCart()[0].itemName} at $${getCart()[0].itemPrice}, and ${getCart()[1].itemName} at $${getCart()[1].itemPrice}.`
 }
-
+else if (cart.length >=3) {
+  var words2 = ''
+}
 
 }
 
